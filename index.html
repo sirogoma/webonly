@@ -17,9 +17,16 @@
       body {
         font-family: "Zen Maru Gothic", sans-serif;
       }
+      /* ビューア内の画像を必ず等比で表示 */
+      .tora-viewer img {
+        width: 100%;
+        height: auto !important; /* ← これが最重要 */
+        max-height: 100%;
+        object-fit: contain; /* 枠に収めつつ縦横比キープ */
+      }
     </style>
-    <script type="module" crossorigin src="./assets/index-BH37sDR7.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-C7cO2gZk.css">
+    <script type="module" crossorigin src="./assets/index-C3U1hsgJ.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Be9tSR9d.css">
   </head>
   <body class="bg-gray-100">
     <div id="root"></div>
