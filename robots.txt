@@ -1,0 +1,7 @@
+# Twitter(X)のクローラーだけは許可する
+User-agent: Twitterbot
+Allow: /
+
+# それ以外のすべてのロボット（Googleなどの検索エンジン）は拒否
+User-agent: *
+Disallow: /
